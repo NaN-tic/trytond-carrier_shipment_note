@@ -1,0 +1,11 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:stock.shipment.out,carrier_note:"
+msgid "Carrier Note"
+msgstr "Nota del transportista"
+
+msgctxt "field:stock.shipment.out.return,carrier_note:"
+msgid "Carrier Note"
+msgstr "Nota del transportista"
