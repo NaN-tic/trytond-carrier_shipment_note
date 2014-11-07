@@ -14,9 +14,7 @@ class CarrierShipmentNoteTestCase(unittest.TestCase):
         trytond.tests.test_tryton.install_module('carrier_shipment_note')
 
     def test0005views(self):
-        '''
-        Test views.
-        '''
+        'Test views'
         test_view('carrier_shipment_note')
 
     def test0006depends(self):
