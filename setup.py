@@ -64,7 +64,7 @@ dependency_links = [
             }),
     ('hg+https://bitbucket.org/trytonspain/'
         'trytond-party_comment@%(branch)s'
-        '#egg=trytonzz-party_comment-%(series)s' % {
+        '#egg=trytonspain-party_comment-%(series)s' % {
             'branch': branch,
             'series': series,
             }),
