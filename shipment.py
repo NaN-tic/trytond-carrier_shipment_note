@@ -7,13 +7,11 @@ from trytond.pool import PoolMeta
 __all__ = ['ShipmentOut', 'ShipmentOutReturn']
 
 
-class ShipmentOut:
-    __metaclass__ = PoolMeta
+class ShipmentOut(metaclass=PoolMeta):
     __name__ = 'stock.shipment.out'
     carrier_note = fields.Text('Carrier Note')
 
 
-class ShipmentOutReturn:
-    __metaclass__ = PoolMeta
+class ShipmentOutReturn(metaclass=PoolMeta):
     __name__ = 'stock.shipment.out.return'
     carrier_note = fields.Text('Carrier Note')
