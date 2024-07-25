@@ -3,9 +3,10 @@
 The COPYRIGHT file at the top level of this repository contains the full
 copyright notices and license terms. -->
 <data>
-    <xpath expr="/form/notebook/page/field[@name=&quot;comment&quot;]"
-            position="after">
-        <separator name="carrier_note" colspan="6"/>
-        <field name="carrier_note" colspan="6"/>
+    <xpath expr="/form/notebook/page[@name='inventory_moves']" position="after">
+        <page name="carrier_note">
+            <separator name="carrier_note" colspan="4"/>
+            <field name="carrier_note" colspan="4"/>
+        </page>
     </xpath>
 </data>
