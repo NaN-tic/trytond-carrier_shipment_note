@@ -3,7 +3,7 @@
 # the full copyright notices and license terms.
 from trytond.model import fields
 from trytond.pool import PoolMeta
-from trytond.pyson import Bool, Eval, Not, Equal
+from trytond.pyson import Eval, Equal
 
 
 class ShipmentOut(metaclass=PoolMeta):
