@@ -1,0 +1,16 @@
+#
+msgid ""
+msgstr ""
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "field:stock.shipment.out,carrier_note:"
+msgid "Carrier Note"
+msgstr "承运商备注"
+
+msgctxt "field:stock.shipment.out.return,carrier_note:"
+msgid "Carrier Note"
+msgstr "承运商备注"
